@@ -1,5 +1,5 @@
 
-const PokemonPropertyLine = ({label, value}) => {
+const PokemonPropertyLine = ({label, value, color}) => {
     return (
         <li className="list-group-item list-group-item-action position-relative">
             {/* LABEL & VALUE */}
@@ -10,8 +10,8 @@ const PokemonPropertyLine = ({label, value}) => {
 
             {/* PROGRESS BAR */}
             <div className="progress row" style={{height: "22px"}}>
-                <div className="progress-bar bg-success" role="progressbar" aria-label="Basic example"
-                     aria-valuenow={value} style={{width: value + "%"}} aria-valuemin="0" aria-valuemax="100">
+                <div className="progress-bar" role="progressbar" aria-label="Basic example"
+                     aria-valuenow={value} style={{width: value + "%", backgroundColor: color}} aria-valuemin="0" aria-valuemax="100">
                 </div>
             </div>
         </li>
