@@ -5,46 +5,68 @@ import PokemonPropertyLine from "../components/PokemonPropertyLine";
 
 const PokemonDetails = () => {
     const { id } = useParams();
-    const pokemon = file.pokemons[id];
+    const pokemon = file.pokemons[id - 1];
+    const image = file.url + id + ".png";
+
+    const color = file.types[pokemon.type[0]];
 
     return (
         <div className="card w-50 mx-auto mt-5 py-5 px-2">
             <div className="card-body">
                 <h3 className="card-title">{pokemon.name.french}</h3>
 
-                <ul className="list-group mt-5">
+                <img src={image} className="rounded mx-auto d-block mt-0" alt={pokemon.name.french} style={{height: "150px"}} />
+
+                <ul className="list-group mt-2">
                     <PokemonPropertyLine
                         label="PV"
                         value={pokemon.base.HP}
+                        color={color}
                     />
 
                     <PokemonPropertyLine
                         label="Attaque"
                         value={pokemon.base.Attack}
+                        color={color}
                     />
 
                     <PokemonPropertyLine
                         label="Défense"
                         value={pokemon.base.Defense}
+                        color={color}
                     />
 
                     <PokemonPropertyLine
                         label="Att. Spé"
                         value={pokemon.base.SpecialAttack}
+                        color={color}
                     />
 
                     <PokemonPropertyLine
                         label="Déf Spé"
                         value={pokemon.base.SpecialDefense}
+                        color={color}
                     />
 
                     <PokemonPropertyLine
                         label="Vitesse"
                         value={pokemon.base.Speed}
+                        color={color}
                     />
                 </ul>
 
-                <a href="/" className="btn btn-outline-secondary w-50 mt-5">Go back</a>
+                <div className="row">
+                    <div className="col-6">
+                        <a href={"/pokemon/" + (parseInt(id) - 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Précédent</a>
+                    </div>
+                    <div className="col-6">
+                        <a href={"/pokemon/" + (parseInt(id) + 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Suivant</a>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="/" className="btn w-50 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Retourner sur la liste</a>
+                </div>
             </div>
         </div>
     )
