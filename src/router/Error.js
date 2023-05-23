@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 
 const Error = ({ text }) => {
+    
     const location = useLocation()
 
     return (
