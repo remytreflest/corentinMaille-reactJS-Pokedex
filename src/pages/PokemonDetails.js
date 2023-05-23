@@ -6,6 +6,8 @@ const PokemonDetails = () => {
     const { id } = useParams()
     const pokemon = file.pokemons[id - 1]
     const image = file.url + id + '.png'
+    const imagePre = file.url + (parseInt(id) == 1 ? '151' : parseInt(id) - 1) + '.png'
+    const imageSui = file.url + (parseInt(id) == 151 ? '1' : parseInt(id) + 1) + '.png'
 
     const color = file.types[pokemon.type[0]]
 
@@ -58,6 +60,12 @@ const PokemonDetails = () => {
                             className='btn w-75 mx-3 mt-5 text-light'
                             style={{ backgroundColor: color }}
                         >
+                            <img
+                                src={imagePre}
+                                className='rounded mx-auto d-block mt-0'
+                                alt={pokemon.name.french}
+                                style={{ height: '30px' }}
+                            />
                             Précédent
                         </a>
                     </div>
@@ -68,6 +76,12 @@ const PokemonDetails = () => {
                             style={{ backgroundColor: color }}
                         >
                             Suivant
+                            <img
+                                src={imageSui}
+                                className='rounded mx-auto d-block mt-0'
+                                alt={pokemon.name.french}
+                                style={{ height: '30px' }}
+                            />
                         </a>
                     </div>
                 </div>
