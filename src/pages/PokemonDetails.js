@@ -57,10 +57,10 @@ const PokemonDetails = () => {
 
                 <div className="row">
                     <div className="col-6">
-                        <a href={"/pokemon/" + (parseInt(id) - 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Précédent</a>
+                        <a href={"/pokemon/" + (parseInt(id) == 1 ? "151" : parseInt(id) - 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Précédent</a>
                     </div>
                     <div className="col-6">
-                        <a href={"/pokemon/" + (parseInt(id) + 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Suivant</a>
+                        <a href={"/pokemon/" + (parseInt(id) == 151 ? "1" : parseInt(id) + 1)} className="btn w-75 mx-3 mt-5 text-light" style={{backgroundColor: color}}>Suivant</a>
                     </div>
                 </div>
 
