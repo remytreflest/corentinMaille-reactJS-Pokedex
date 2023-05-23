@@ -1,5 +1,25 @@
 {
   "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",
+  "types": 
+  {
+    "Feu" : "#FF3535",
+    "Plante" : "#83FF35",
+    "Poison" : "#BB35FF",
+    "Vol" : "#D5FDFF",
+    "Sol" : "#9C5604",
+    "Acier" : "#505050",
+    "Electrique" : "#FEFB29",
+    "Insecte" : "#83E7A0",
+    "Normal" : "#CCCCCC",
+    "Combat" : "#FFA236",
+    "Eau" : "#293AFE",
+    "Roche" : "#616161",
+    "Fee" : "#EEC959",
+    "Glace" : "#91A4FF",
+    "Fantome" : "#E4BAFF",
+    "Dragon" : "#973C47",
+    "Psy" : "#EE59DA"
+  },
   "pokemons":
   [
     {
@@ -11,7 +31,7 @@
         "french": "Bulbizarre"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -32,7 +52,7 @@
         "french": "Herbizarre"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -53,7 +73,7 @@
         "french": "Florizarre"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -74,7 +94,7 @@
         "french": "Salamèche"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 39,
@@ -94,7 +114,7 @@
         "french": "Reptincel"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 58,
@@ -114,8 +134,8 @@
         "french": "Dracaufeu"
       },
       "type": [
-        "Fire",
-        "Flying"
+        "Feu",
+        "Vol"
       ],
       "base": {
         "HP": 78,
@@ -135,7 +155,7 @@
         "french": "Carapuce"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 44,
@@ -155,7 +175,7 @@
         "french": "Carabaffe"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 59,
@@ -175,7 +195,7 @@
         "french": "Tortank"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 79,
@@ -195,7 +215,7 @@
         "french": "Chenipan"
       },
       "type": [
-        "Bug"
+        "Insecte"
       ],
       "base": {
         "HP": 45,
@@ -215,7 +235,7 @@
         "french": "Chrysacier"
       },
       "type": [
-        "Bug"
+        "Insecte"
       ],
       "base": {
         "HP": 50,
@@ -235,8 +255,8 @@
         "french": "Papilusion"
       },
       "type": [
-        "Bug",
-        "Flying"
+        "Insecte",
+        "Vol"
       ],
       "base": {
         "HP": 60,
@@ -256,7 +276,7 @@
         "french": "Aspicot"
       },
       "type": [
-        "Bug",
+        "Insecte",
         "Poison"
       ],
       "base": {
@@ -277,7 +297,7 @@
         "french": "Coconfort"
       },
       "type": [
-        "Bug",
+        "Insecte",
         "Poison"
       ],
       "base": {
@@ -298,7 +318,7 @@
         "french": "Dardargnan"
       },
       "type": [
-        "Bug",
+        "Insecte",
         "Poison"
       ],
       "base": {
@@ -320,7 +340,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 40,
@@ -341,7 +361,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 63,
@@ -362,7 +382,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 83,
@@ -423,7 +443,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 40,
@@ -444,7 +464,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 65,
@@ -504,7 +524,7 @@
         "french": "Pikachu"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 35,
@@ -524,7 +544,7 @@
         "french": "Raichu"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 60,
@@ -544,7 +564,7 @@
         "french": "Sabelette"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 50,
@@ -564,7 +584,7 @@
         "french": "Sablaireau"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 75,
@@ -625,7 +645,7 @@
       },
       "type": [
         "Poison",
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 90,
@@ -686,7 +706,7 @@
       },
       "type": [
         "Poison",
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 81,
@@ -700,13 +720,13 @@
     {
       "id": 35,
       "name": {
-        "english": "Clefairy",
+        "english": "CleFee",
         "japanese": "ピッピ",
         "chinese": "皮皮",
         "french": "Mélofée"
       },
       "type": [
-        "Fairy"
+        "Fee"
       ],
       "base": {
         "HP": 70,
@@ -726,7 +746,7 @@
         "french": "Mélodelfe"
       },
       "type": [
-        "Fairy"
+        "Fee"
       ],
       "base": {
         "HP": 95,
@@ -746,7 +766,7 @@
         "french": "Goupix"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 38,
@@ -766,7 +786,7 @@
         "french": "Feunard"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 73,
@@ -787,7 +807,7 @@
       },
       "type": [
         "Normal",
-        "Fairy"
+        "Fee"
       ],
       "base": {
         "HP": 115,
@@ -808,7 +828,7 @@
       },
       "type": [
         "Normal",
-        "Fairy"
+        "Fee"
       ],
       "base": {
         "HP": 140,
@@ -829,7 +849,7 @@
       },
       "type": [
         "Poison",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 40,
@@ -850,7 +870,7 @@
       },
       "type": [
         "Poison",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 75,
@@ -870,7 +890,7 @@
         "french": "Mystherbe"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -891,7 +911,7 @@
         "french": "Ortide"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -912,7 +932,7 @@
         "french": "Rafflesia"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -933,8 +953,8 @@
         "french": "Paras"
       },
       "type": [
-        "Bug",
-        "Grass"
+        "Insecte",
+        "Plante"
       ],
       "base": {
         "HP": 35,
@@ -954,8 +974,8 @@
         "french": "Parasect"
       },
       "type": [
-        "Bug",
-        "Grass"
+        "Insecte",
+        "Plante"
       ],
       "base": {
         "HP": 60,
@@ -975,7 +995,7 @@
         "french": "Mimitoss"
       },
       "type": [
-        "Bug",
+        "Insecte",
         "Poison"
       ],
       "base": {
@@ -996,7 +1016,7 @@
         "french": "Aéromite"
       },
       "type": [
-        "Bug",
+        "Insecte",
         "Poison"
       ],
       "base": {
@@ -1017,7 +1037,7 @@
         "french": "Taupiqueur"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 10,
@@ -1037,7 +1057,7 @@
         "french": "Triopikeur"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 35,
@@ -1097,7 +1117,7 @@
         "french": "Psykokwak"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 50,
@@ -1117,7 +1137,7 @@
         "french": "Akwakwak"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 80,
@@ -1137,7 +1157,7 @@
         "french": "Férosinge"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 40,
@@ -1157,7 +1177,7 @@
         "french": "Colossinge"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 65,
@@ -1177,7 +1197,7 @@
         "french": "Caninos"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 55,
@@ -1197,7 +1217,7 @@
         "french": "Arcanin"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 90,
@@ -1217,7 +1237,7 @@
         "french": "Ptitard"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 40,
@@ -1237,7 +1257,7 @@
         "french": "Têtarte"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 65,
@@ -1257,8 +1277,8 @@
         "french": "Tartard"
       },
       "type": [
-        "Water",
-        "Fighting"
+        "Eau",
+        "Combat"
       ],
       "base": {
         "HP": 90,
@@ -1278,7 +1298,7 @@
         "french": "Abra"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 25,
@@ -1298,7 +1318,7 @@
         "french": "Kadabra"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 40,
@@ -1318,7 +1338,7 @@
         "french": "Alakazam"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 55,
@@ -1338,7 +1358,7 @@
         "french": "Machoc"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 70,
@@ -1358,7 +1378,7 @@
         "french": "Machopeur"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 80,
@@ -1378,7 +1398,7 @@
         "french": "Mackogneur"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 90,
@@ -1398,7 +1418,7 @@
         "french": "Chétiflor"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -1419,7 +1439,7 @@
         "french": "Boustiflor"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -1440,7 +1460,7 @@
         "french": "Empiflor"
       },
       "type": [
-        "Grass",
+        "Plante",
         "Poison"
       ],
       "base": {
@@ -1461,7 +1481,7 @@
         "french": "Tentacool"
       },
       "type": [
-        "Water",
+        "Eau",
         "Poison"
       ],
       "base": {
@@ -1482,7 +1502,7 @@
         "french": "Tentacruel"
       },
       "type": [
-        "Water",
+        "Eau",
         "Poison"
       ],
       "base": {
@@ -1503,8 +1523,8 @@
         "french": "Racaillou"
       },
       "type": [
-        "Rock",
-        "Ground"
+        "Roche",
+        "Sol"
       ],
       "base": {
         "HP": 40,
@@ -1524,8 +1544,8 @@
         "french": "Gravalanch"
       },
       "type": [
-        "Rock",
-        "Ground"
+        "Roche",
+        "Sol"
       ],
       "base": {
         "HP": 55,
@@ -1545,8 +1565,8 @@
         "french": "Grolem"
       },
       "type": [
-        "Rock",
-        "Ground"
+        "Roche",
+        "Sol"
       ],
       "base": {
         "HP": 80,
@@ -1566,7 +1586,7 @@
         "french": "Ponyta"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 50,
@@ -1586,7 +1606,7 @@
         "french": "Galopa"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 65,
@@ -1606,8 +1626,8 @@
         "french": "Ramoloss"
       },
       "type": [
-        "Water",
-        "Psychic"
+        "Eau",
+        "Psy"
       ],
       "base": {
         "HP": 90,
@@ -1627,8 +1647,8 @@
         "french": "Flagadoss"
       },
       "type": [
-        "Water",
-        "Psychic"
+        "Eau",
+        "Psy"
       ],
       "base": {
         "HP": 95,
@@ -1648,8 +1668,8 @@
         "french": "Magnéti"
       },
       "type": [
-        "Electric",
-        "Steel"
+        "Electrique",
+        "Acier"
       ],
       "base": {
         "HP": 25,
@@ -1669,8 +1689,8 @@
         "french": "Magnéton"
       },
       "type": [
-        "Electric",
-        "Steel"
+        "Electrique",
+        "Acier"
       ],
       "base": {
         "HP": 50,
@@ -1691,7 +1711,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 52,
@@ -1712,7 +1732,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 35,
@@ -1733,7 +1753,7 @@
       },
       "type": [
         "Normal",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 60,
@@ -1753,7 +1773,7 @@
         "french": "Otaria"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 65,
@@ -1773,8 +1793,8 @@
         "french": "Lamantine"
       },
       "type": [
-        "Water",
-        "Ice"
+        "Eau",
+        "Glace"
       ],
       "base": {
         "HP": 90,
@@ -1834,7 +1854,7 @@
         "french": "Kokiyas"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 30,
@@ -1854,8 +1874,8 @@
         "french": "Crustabri"
       },
       "type": [
-        "Water",
-        "Ice"
+        "Eau",
+        "Glace"
       ],
       "base": {
         "HP": 50,
@@ -1875,7 +1895,7 @@
         "french": "Fantominus"
       },
       "type": [
-        "Ghost",
+        "Fantome",
         "Poison"
       ],
       "base": {
@@ -1896,7 +1916,7 @@
         "french": "Spectrum"
       },
       "type": [
-        "Ghost",
+        "Fantome",
         "Poison"
       ],
       "base": {
@@ -1917,7 +1937,7 @@
         "french": "Ectoplasma"
       },
       "type": [
-        "Ghost",
+        "Fantome",
         "Poison"
       ],
       "base": {
@@ -1938,8 +1958,8 @@
         "french": "Onix"
       },
       "type": [
-        "Rock",
-        "Ground"
+        "Roche",
+        "Sol"
       ],
       "base": {
         "HP": 35,
@@ -1959,7 +1979,7 @@
         "french": "Soporifik"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 60,
@@ -1979,7 +1999,7 @@
         "french": "Hypnomade"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 85,
@@ -1999,7 +2019,7 @@
         "french": "Krabby"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 30,
@@ -2019,7 +2039,7 @@
         "french": "Krabboss"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 55,
@@ -2039,7 +2059,7 @@
         "french": "Voltorbe"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 40,
@@ -2059,7 +2079,7 @@
         "french": "Électrode"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 60,
@@ -2079,8 +2099,8 @@
         "french": "Noeunoeuf"
       },
       "type": [
-        "Grass",
-        "Psychic"
+        "Plante",
+        "Psy"
       ],
       "base": {
         "HP": 60,
@@ -2100,8 +2120,8 @@
         "french": "Noadkoko"
       },
       "type": [
-        "Grass",
-        "Psychic"
+        "Plante",
+        "Psy"
       ],
       "base": {
         "HP": 95,
@@ -2121,7 +2141,7 @@
         "french": "Osselait"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 50,
@@ -2141,7 +2161,7 @@
         "french": "Ossatueur"
       },
       "type": [
-        "Ground"
+        "Sol"
       ],
       "base": {
         "HP": 60,
@@ -2161,7 +2181,7 @@
         "french": "Kicklee"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 50,
@@ -2181,7 +2201,7 @@
         "french": "Tygnon"
       },
       "type": [
-        "Fighting"
+        "Combat"
       ],
       "base": {
         "HP": 50,
@@ -2261,8 +2281,8 @@
         "french": "Rhinocorne"
       },
       "type": [
-        "Ground",
-        "Rock"
+        "Sol",
+        "Roche"
       ],
       "base": {
         "HP": 80,
@@ -2282,8 +2302,8 @@
         "french": "Rhinoféros"
       },
       "type": [
-        "Ground",
-        "Rock"
+        "Sol",
+        "Roche"
       ],
       "base": {
         "HP": 105,
@@ -2323,7 +2343,7 @@
         "french": "Saquedeneu"
       },
       "type": [
-        "Grass"
+        "Plante"
       ],
       "base": {
         "HP": 65,
@@ -2363,7 +2383,7 @@
         "french": "Hypotrempe"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 30,
@@ -2383,7 +2403,7 @@
         "french": "Hypocéan"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 55,
@@ -2403,7 +2423,7 @@
         "french": "Poissirène"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 45,
@@ -2423,7 +2443,7 @@
         "french": "Poissoroy"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 80,
@@ -2443,7 +2463,7 @@
         "french": "Stari"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 30,
@@ -2463,8 +2483,8 @@
         "french": "Staross"
       },
       "type": [
-        "Water",
-        "Psychic"
+        "Eau",
+        "Psy"
       ],
       "base": {
         "HP": 60,
@@ -2484,8 +2504,8 @@
         "french": "M. Mime"
       },
       "type": [
-        "Psychic",
-        "Fairy"
+        "Psy",
+        "Fee"
       ],
       "base": {
         "HP": 40,
@@ -2505,8 +2525,8 @@
         "french": "Insécateur"
       },
       "type": [
-        "Bug",
-        "Flying"
+        "Insecte",
+        "Vol"
       ],
       "base": {
         "HP": 70,
@@ -2526,8 +2546,8 @@
         "french": "Lippoutou"
       },
       "type": [
-        "Ice",
-        "Psychic"
+        "Glace",
+        "Psy"
       ],
       "base": {
         "HP": 65,
@@ -2547,7 +2567,7 @@
         "french": "Élektek"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 65,
@@ -2567,7 +2587,7 @@
         "french": "Magmar"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 65,
@@ -2587,7 +2607,7 @@
         "french": "Scarabrute"
       },
       "type": [
-        "Bug"
+        "Insecte"
       ],
       "base": {
         "HP": 65,
@@ -2627,7 +2647,7 @@
         "french": "Magicarpe"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 20,
@@ -2647,8 +2667,8 @@
         "french": "Léviator"
       },
       "type": [
-        "Water",
-        "Flying"
+        "Eau",
+        "Vol"
       ],
       "base": {
         "HP": 95,
@@ -2668,8 +2688,8 @@
         "french": "Lokhlass"
       },
       "type": [
-        "Water",
-        "Ice"
+        "Eau",
+        "Glace"
       ],
       "base": {
         "HP": 130,
@@ -2729,7 +2749,7 @@
         "french": "Aquali"
       },
       "type": [
-        "Water"
+        "Eau"
       ],
       "base": {
         "HP": 130,
@@ -2749,7 +2769,7 @@
         "french": "Voltali"
       },
       "type": [
-        "Electric"
+        "Electrique"
       ],
       "base": {
         "HP": 65,
@@ -2769,7 +2789,7 @@
         "french": "Pyroli"
       },
       "type": [
-        "Fire"
+        "Feu"
       ],
       "base": {
         "HP": 65,
@@ -2809,8 +2829,8 @@
         "french": "Amonita"
       },
       "type": [
-        "Rock",
-        "Water"
+        "Roche",
+        "Eau"
       ],
       "base": {
         "HP": 35,
@@ -2830,8 +2850,8 @@
         "french": "Amonistar"
       },
       "type": [
-        "Rock",
-        "Water"
+        "Roche",
+        "Eau"
       ],
       "base": {
         "HP": 70,
@@ -2851,8 +2871,8 @@
         "french": "Kabuto"
       },
       "type": [
-        "Rock",
-        "Water"
+        "Roche",
+        "Eau"
       ],
       "base": {
         "HP": 30,
@@ -2872,8 +2892,8 @@
         "french": "Kabutops"
       },
       "type": [
-        "Rock",
-        "Water"
+        "Roche",
+        "Eau"
       ],
       "base": {
         "HP": 60,
@@ -2893,8 +2913,8 @@
         "french": "Ptéra"
       },
       "type": [
-        "Rock",
-        "Flying"
+        "Roche",
+        "Vol"
       ],
       "base": {
         "HP": 80,
@@ -2934,8 +2954,8 @@
         "french": "Artikodin"
       },
       "type": [
-        "Ice",
-        "Flying"
+        "Glace",
+        "Vol"
       ],
       "base": {
         "HP": 90,
@@ -2955,8 +2975,8 @@
         "french": "Électhor"
       },
       "type": [
-        "Electric",
-        "Flying"
+        "Electrique",
+        "Vol"
       ],
       "base": {
         "HP": 90,
@@ -2976,8 +2996,8 @@
         "french": "Sulfura"
       },
       "type": [
-        "Fire",
-        "Flying"
+        "Feu",
+        "Vol"
       ],
       "base": {
         "HP": 90,
@@ -3038,7 +3058,7 @@
       },
       "type": [
         "Dragon",
-        "Flying"
+        "Vol"
       ],
       "base": {
         "HP": 91,
@@ -3058,7 +3078,7 @@
         "french": "Mewtwo"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 106,
@@ -3078,7 +3098,7 @@
         "french": "Mew"
       },
       "type": [
-        "Psychic"
+        "Psy"
       ],
       "base": {
         "HP": 100,

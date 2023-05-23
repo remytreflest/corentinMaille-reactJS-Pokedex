@@ -5,14 +5,17 @@ const Home = () => {
 
 const pokemons = file.pokemons.map((pokemon, index) => {
 
-    let types = pokemon.type.map((type) => type)
+    let types = pokemon.type.map((type) => {
+        const color = file.types[type];
+        return <span key={type} className={`${type} btn me-1 ms-1`} style={{ background: color}}>{type}</span>
+    })
 
     return (
         <tr key={pokemon.id} style={{ height: "50px" }}>
-            <th scope="row">{pokemon.id}</th>
-            <td><img src={`${file.url}${pokemon.id}.png`} alt={pokemon.name.french} style={{ width: "50px", height: "50px" }} /></td>
-            <td><Link to={`/pokemon/${pokemon.id}`}>{pokemon.name.french}</Link></td>
-            <td>{types}</td>
+            <th className="align-middle" scope="row">{pokemon.id}</th>
+            <td className="align-middle"><img src={`${file.url}${pokemon.id}.png`} alt={pokemon.name.french} style={{ width: "50px", height: "50px" }} /></td>
+            <td className="align-middle"><Link to={`/pokemon/${pokemon.id}`}>{pokemon.name.french}</Link></td>
+            <td className="align-middle">{types}</td>
         </tr>
     )
 })
