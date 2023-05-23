@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import file from '../assets/datas/pokedex.json'
+import Layout from '../layouts/layout'
 
 const Home = () => {
 
@@ -7,7 +8,7 @@ const pokemons = file.pokemons.map((pokemon, index) => {
 
     let types = pokemon.type.map((type) => {
         const color = file.types[type];
-        return <span key={type} className={`${type} btn me-1 ms-1`} style={{ background: color}}>{type}</span>
+        return <span key={type} className={`${type} btn me-1 ms-1 cursor`} style={{ background: color}}>{type}</span>
     })
 
     return (
