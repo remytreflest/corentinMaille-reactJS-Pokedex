@@ -1,6 +1,7 @@
 
 import file from '../assets/datas/pokedex.json'
 import {useParams} from "react-router-dom";
+import PokemonPropertyLine from "../components/PokemonPropertyLine";
 
 const PokemonDetails = () => {
     const { id } = useParams();
@@ -12,12 +13,35 @@ const PokemonDetails = () => {
                 <h3 className="card-title">{pokemon.name.french}</h3>
 
                 <ul className="list-group mt-5">
-                    <li className="list-group-item list-group-item-action">PV : {pokemon.base.HP}</li>
-                    <li className="list-group-item list-group-item-action">Attaque : {pokemon.base.Attack}</li>
-                    <li className="list-group-item list-group-item-action">Défense : {pokemon.base.Defense}</li>
-                    <li className="list-group-item list-group-item-action">Att. Spé : {pokemon.base.SpecialAttack}</li>
-                    <li className="list-group-item list-group-item-action">Déf Spé : {pokemon.base.SpecialDefense}</li>
-                    <li className="list-group-item list-group-item-action">Vitesse : {pokemon.base.speed}</li>
+                    <PokemonPropertyLine
+                        label="PV"
+                        value={pokemon.base.HP}
+                    />
+
+                    <PokemonPropertyLine
+                        label="Attaque"
+                        value={pokemon.base.Attack}
+                    />
+
+                    <PokemonPropertyLine
+                        label="Défense"
+                        value={pokemon.base.Defense}
+                    />
+
+                    <PokemonPropertyLine
+                        label="Att. Spé"
+                        value={pokemon.base.SpecialAttack}
+                    />
+
+                    <PokemonPropertyLine
+                        label="Déf Spé"
+                        value={pokemon.base.SpecialDefense}
+                    />
+
+                    <PokemonPropertyLine
+                        label="Vitesse"
+                        value={pokemon.base.Speed}
+                    />
                 </ul>
 
                 <a href="/" className="btn btn-outline-secondary w-50 mt-5">Go back</a>
