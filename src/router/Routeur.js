@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Error from './Error'
 import Layout from '../layouts/layout'
-import PokemonDetails from "../pages/PokemonDetails";
+import PokemonDetails from '../pages/PokemonDetails'
 
 const Routeur = ({ text }) => {
     return (
